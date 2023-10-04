@@ -6,26 +6,22 @@ public class Main {
     public static void main(String[] args) {
 
         //System.out.println("Hello world!");
-        Scanner scanner = new Scanner(System.in);
+
         List <Parinte> parinti = new ArrayList();
 
-        Parinte parinte = new Parinte();
-        Copil copil = new Copil();
+        Parinte parinte = new Parinte("Teo");
+        Copil copil = new Copil("Marius");
 
-        scanner.nextLine();
+        parinti.add(parinte);
+        parinte = new Parinte("Alex");
 
-        parinte.nume(parinte.nume);
-        parinte.afiseaza(parinte.nume);
-//        parinte.afiseaza("Teo");
-//        parinte.afiseaza("Alex");
-//        parinte.afiseaza("Ion");
+        parinti.add(parinte);
 
-
-        List<Parinte> parinteList = new ArrayList<>();
-
-
-
-
+        for(Parinte element : parinti)
+        {
+            element.afiseaza();
+        }
+        copil.afiseaza();
 
         //parinte = new Copil(); //mostenire
         //parinte.afiseaza("Alex");

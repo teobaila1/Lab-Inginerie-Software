@@ -1,11 +1,11 @@
 public class Parinte {
     String nume;
-
-    void afiseaza(String nume){
-        System.out.println(nume);
+    public Parinte(String name)
+    {
+        this.nume = name;
     }
 
-    public void nume(String nume) {
-        nume = nume;
+    void afiseaza(){
+        System.out.println(nume);
     }
 }
