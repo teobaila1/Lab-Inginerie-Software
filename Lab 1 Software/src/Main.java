@@ -25,7 +25,8 @@ public class Main{
         parinti.sort(new Comparator<Parinte>() {
             @Override
             public int compare(Parinte o1, Parinte o2) {
-                return (o1.name.compareToIgnoreCase(o2.name));
+
+                return (o1.name.compareTo(o2.name));
             }
         });
 
