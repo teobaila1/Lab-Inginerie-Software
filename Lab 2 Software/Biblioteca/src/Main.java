@@ -47,6 +47,13 @@ public class Main {
             element.afisareCarte();
         }
 
+        List<Pagina> pagini = new ArrayList();
+
+        Pagina pagina = new Pagina("Ion", "Liviu Rebreanu", 10, "ACACACACACA");
+
+        pagina.afisarePagina();
+        
+
         //de facut cautarea unei fraze, titlu+pagina si afisarea paginii  (titlu + pagina), cautare binara, map
 
 

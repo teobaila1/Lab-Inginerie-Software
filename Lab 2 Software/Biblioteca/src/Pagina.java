@@ -8,11 +8,6 @@ public class Pagina extends Carte{
         this.text = text;
     }
 
-    public int cautareFraza(String titlu, String autor, int nrPaginii, String text){
-        System.out.println();
-        return nrPaginii;
-    }
-
     public void afisarePagina(){
         System.out.println(nrPaginii + " - " + text);
     }
