@@ -1,0 +1,1 @@
+pentru a merge de fiecare data cand sting laptopul, trebe sa fac reconfigurare in cmd, cu: cd glassfish7/bin bla bla bla
